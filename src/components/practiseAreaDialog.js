@@ -22,7 +22,7 @@ const PractiseAreaDialog = ({ open, onClose, practiseArea }) => {
         </div>
         <div className="popup-body">
           <figure className="mb-20">
-            <img src={areaImg} alt={`image of ${areaName} practise area`} />
+            <img src={areaImg} alt={`${areaName} photo`} />
           </figure>
           <p>{areaDescription}</p>
         </div>
