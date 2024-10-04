@@ -1,0 +1,75 @@
+header {
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid #e6e8ec;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    background-color: rgba(250, 246, 235, .7);
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo-cover{
+            width: 150px;
+        }
+        .btn-primary{
+            width: 150px;
+        }
+        .nav-list {
+            margin-left: 30px;
+            li {
+                padding: 5px 15px;
+                a {
+                    color: var(--black);
+                    text-transform: uppercase;
+                    letter-spacing: .5px;
+                    font-weight: 500;
+                    transition: .2s;
+                    &:hover{
+                        color: var(--primary);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .btn{
+            padding: 10.5px 25px !important;
+            font-size: 14px;
+        }
+        .for-mobile{
+            display: none;
+            @media screen and (max-width: 767px){
+                display: flex;
+            }
+        }
+        .for-desktop{
+            @media screen and (max-width: 767px){
+                display: none;
+            }
+        }
+    }
+
+}
+
+.our-drawer{
+    .MuiPaper-root{
+        width: 250px;
+        padding: 12px;
+        .nav-list {
+            display: block;
+            li {
+                a {
+                    display: block;
+                    padding: 15px;
+                    color: var(--black);
+                    font-size: 16px;
+                }
+                &:last-child{
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}

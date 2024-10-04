@@ -1,0 +1,143 @@
+.flex{
+    display: flex;
+}
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.justify-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.justify-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end !important;
+}
+.align-flex-end {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+.capitalize {
+    text-transform: capitalize !important;
+}
+.underline {
+    text-decoration: underline !important;
+}
+.thin {
+    font-weight: 300 !important;
+}
+.regular {
+    font-weight: 400 !important;
+}
+.semi-bold {
+    font-weight: 500 !important;
+}
+.bold {
+    font-weight: 700 !important;
+}
+.extra-bold {
+    font-weight: 800 !important;
+}
+.center {
+    text-align: center !important;
+}
+.right {
+    text-align: right !important;
+}
+.left {
+    text-align: left !important;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.primary {
+    color: var(--primary) !important;
+}
+.white{
+    color: var(--white) !important;
+}
+.black{
+    color: var(--black) !important;
+}
+.blue{
+    color: var(--blue) !important;
+}
+.subtext {
+    color: var(--subtext) !important;
+}
+.text-green {
+    color: var(--green) !important;
+}
+.text-red {
+    color: var(--red) !important;
+}
+.text-orange {
+    color: var(--orange) !important;
+}
+
+.border{
+    border: 1px solid var(--border-color);
+}
+
+.h-100{
+    height: 100%;
+}
+
+.box-shadow{
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.card-ui {
+    min-width: 250px;
+    max-width: 100%;
+    box-shadow: 0px 0px 5px 3px rgba(79, 79, 79, 0.15);
+    border-radius: 3px;
+    overflow: hidden;
+    background: var(--white);
+    &.no-shadow{
+        box-shadow: none;
+    }
+    .card-header {
+        background-color: var(--background-color);
+        padding: 15px;
+        h5 {
+            color: var(--black);
+            margin: 0px;
+            font-weight: bold;
+        }
+    }
+    .card-body {
+        padding: 15px 15px 20px;
+    }
+    .card-footer{
+        .btn-cover{
+            margin: 0px;
+        }
+    }
+}
+.MuiModal-backdrop{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
