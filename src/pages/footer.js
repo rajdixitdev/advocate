@@ -9,9 +9,9 @@ const Footer = () => {
         <Grid2 container spacing={{ xs: 5 }}>
           <Grid2 item size={{ xs: 12, sm: 9, md: 8, lg: 6 }}>
             <Link to="/" className="logo-cover">
-              <img src="assets/images/logo.svg" alt="Logo" />
+              <img src="assets/images/logo-golden.svg" alt="Logo" />
             </Link>
-            <p className="mt-20" style={{ lineHeight: 2 }}>
+            <p className="mt-20 body2" style={{ lineHeight: 2 }}>
               Lexwell Partners is a dynamic and client-centric law firm
               representing clients across various legal forums. <br /> We are
               dedicated to delivering effective legal solutions tailored to meet
@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
           </Grid2>
           <Grid2 item size={{ xs: 12, md: 6 }} className="copyrightStatement">
-            <p className="regular">
+            <p className="regular body2">
               Copyright © 2024 LexwellPartners. All rights reserved.
             </p>
           </Grid2>

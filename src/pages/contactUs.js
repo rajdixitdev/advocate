@@ -29,11 +29,11 @@ const ContactUs = () => {
     <div className="page-contact-us">
       <div className="container">
         <h1 className="heading1 mb-30 center">Contact Us</h1>
-        <p className="body2 subtext mb-60 mb-md-40 mb-sm-30 mb-xs-20 center">
-        Lexwell Partners is a dynamic and client-centric law firm
-              representing clients across various legal forums. <br /> We are dedicated
-              to delivering effective legal solutions tailored to meet the
-              unique needs of each client.
+        <p className="body2 subtext mb-60 mb-md-40 center">
+          Lexwell Partners is a dynamic and client-centric law firm representing
+          clients across various legal forums. <br /> We are dedicated to
+          delivering effective legal solutions tailored to meet the unique needs
+          of each client.
         </p>
 
         <div className="contact-content">
@@ -109,25 +109,23 @@ const ContactUs = () => {
                   </li>
                   <li>
                     <Link
-                      to="mailto:hello@nowcrowd.app"
+                      to="mailto:contact@lexwellpartners.com"
                       type="mail"
                       className="white"
                       target="_blank"
                     >
                       <EmailOutlinedIcon className="white mr-20" />{' '}
-                      dkawue@iduawe.coa
+                      contact@lexwellpartners.com
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003"
-                      type="mail"
+                      to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7"
                       className="white"
                       target="_blank"
                     >
                       <LocationOnOutlinedIcon className="white mr-20" />
-                      250 Contact Address here 250 Contact Address here 250
-                      Contact Address here
+                      D-9, Ground Floor, Jangpura Extension, Delhi - 110014
                     </Link>
                   </li>
                   <li>

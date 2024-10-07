@@ -30,7 +30,7 @@ const Career = () => {
     <div className="page-career page-contact-us">
       <div className="container">
         <h1 className="heading1 mb-30 center">Career</h1>
-        <p className="body2 subtext mb-60 mb-md-40 mb-sm-30 mb-xs-20 center">
+        <p className="body2 subtext mb-60 mb-md-40 center">
         We always appreciate new talents who are dedicated and motivated by the prospect of doing their best work everyday.<br />
         We strive to embody the following ideals in everything we do.
         </p>
@@ -101,21 +101,20 @@ const Career = () => {
                   </li>
                   <li>
                     <Link
-                      to="mailto:hello@nowcrowd.app"
+                      to="mailto:contact@lexwellpartners.com"
                       type="mail"
                       className="white"
                       target='_blank'
                     >
                       <EmailOutlinedIcon className="white mr-20" />{' '}
-                      dkawue@iduawe.coa
+                      contact@lexwellpartners.com
                     </Link>
                   </li>
                   <li>
-                    <Link to="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003" type="mail" className="white"
+                    <Link to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7" className="white"
                     target='_blank'>
                       <LocationOnOutlinedIcon className="white mr-20" />
-                      250 Contact Address here 250 Contact Address here 250
-                      Contact Address here
+                      D-9, Ground Floor, Jangpura Extension, Delhi - 110014
                     </Link>
                   </li>
                   <li>

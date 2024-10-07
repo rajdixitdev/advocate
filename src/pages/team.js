@@ -3,13 +3,14 @@ import React from 'react';
 const Team = () => {
   return (
     <section className="page-our-team">
+      
       <div className="container">
         <h1 className="heading1 mb-30 center">Our Team</h1>
-        <p className="body2 subtext mb-60 mb-md-40 mb-sm-30 mb-xs-20 center">
-        Lexwell Partners is a dynamic and client-centric law firm
-              representing clients across various legal forums. <br /> We are dedicated
-              to delivering effective legal solutions tailored to meet the
-              unique needs of each client.
+        <p className="body2 subtext mb-60 mb-md-40 center">
+          Lexwell Partners is a dynamic and client-centric law firm representing
+          clients across various legal forums. <br /> We are dedicated to
+          delivering effective legal solutions tailored to meet the unique needs
+          of each client.
         </p>
         <ul className="team-list">
           <li className="single-team-member">
@@ -28,7 +29,8 @@ const Team = () => {
                 He holds a law degree from Amity Law School, Delhi (GGSIPU),
                 Vivek brings over five years of in-depth legal experience to the
                 table, delivering both practical and strategic legal solutions.
-                <br /><br />
+                <br />
+                <br />
                 Vivek has a robust practice in the drafting and execution of
                 various legal agreements. His expertise spans Mergers and
                 Acquisitions, Shareholder Agreements, Joint Venture Agreements,
@@ -45,10 +47,15 @@ const Team = () => {
           </li>
           <li className="single-team-member">
             <div className="img-cover">
-            <img src="assets/images/neerajProfile.jpeg" alt="Neeraj Badjatya" />
+              <img
+                src="assets/images/neerajProfile.jpeg"
+                alt="Neeraj Badjatya"
+              />
             </div>
             <div className="team-member-detail">
-              <h2 className="heading2 mb-10" id='neerajProfile'>Neeraj Badjatya</h2>
+              <h2 className="heading2 mb-10" id="neerajProfile">
+                Neeraj Badjatya
+              </h2>
               <p className="designation">Co-Founder</p>
               <hr />
               <p className="body2">
@@ -59,18 +66,19 @@ const Team = () => {
                 DRAT. A graduate of Amity Law School, Delhi (GGSIPU), Neeraj has
                 been practicing law for over five years, gaining a reputation
                 for his expertise in both litigation and corporate legal
-                services. 
-                <br /><br />
-                Neeraj specializes in the drafting and execution of a
-                wide range of legal agreements, including Mergers and
-                Acquisitions, Shareholder Agreements, Joint Venture Agreements,
-                Partnership Deeds, Non-Disclosure Agreements, Employment
-                Contracts, Service Agreements, and various Commercial Contracts.
-                His strategic approach and attention to detail ensure that
-                clients receive comprehensive and tailored legal solutions. As a
-                founding partner of Lexwell Partners, he is committed to
-                providing insightful legal counsel, safeguarding the interests
-                of his clients in every matter.
+                services.
+                <br />
+                <br />
+                Neeraj specializes in the drafting and execution of a wide range
+                of legal agreements, including Mergers and Acquisitions,
+                Shareholder Agreements, Joint Venture Agreements, Partnership
+                Deeds, Non-Disclosure Agreements, Employment Contracts, Service
+                Agreements, and various Commercial Contracts. His strategic
+                approach and attention to detail ensure that clients receive
+                comprehensive and tailored legal solutions. As a founding
+                partner of Lexwell Partners, he is committed to providing
+                insightful legal counsel, safeguarding the interests of his
+                clients in every matter.
               </p>
             </div>
           </li>

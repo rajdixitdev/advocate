@@ -47,7 +47,7 @@ const PractiseAreasList = ({ numberOfItems }) => {
   }, [numberOfItems]);
 
   return (
-    <Grid container spacing={3}>
+    <Grid container spacing={3} justifyContent={'center'}>
       {itemToDisplay.length > 0 &&
         itemToDisplay.map((practiseArea) => (
           <Grid item size={{ xs: 12, sm: 6, lg: 4 }} key={practiseArea} className="mb-30">

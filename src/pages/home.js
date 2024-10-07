@@ -15,9 +15,9 @@ const Home = () => {
             justifyContent="space-between"
             alignItems={'center'}
           >
-            <Grid item size={{ xs: 12, sm: 6, lg: 6 }}>
+            <Grid item size={{ xs: 12, md: 6, lg: 6 }}>
               <div className="banner-content">
-                <h1 className="heading1 mb-50">
+                <h1 className="heading1 mb-50 mb-md-40 mb-sm-30">
                   Committed To Helping Our Clients{' '}
                   <span className="primary text-with-underline">
                     Succeed.{' '}
@@ -53,7 +53,7 @@ const Home = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item size={{ xs: 12, sm: 6, lg: 5 }}>
+            <Grid item size={{ xs: 12, md: 6, lg: 5 }}>
               <figure>
                 <img
                   src="assets/images/orderHammer.png"
@@ -69,16 +69,16 @@ const Home = () => {
       <section className="powering-communication">
         <div className="container">
           <Grid container spacing={{ xs: 5, sm: 8, lg: 10 }} alignItems={'center'}>
-            <Grid item size={{ xs: 12, sm: 6, lg: 5, xl: 4.5 }}>
-              <div className="img-cover">
+            <Grid item size={{ xs: 12, md: 5, xl: 4.5 }}>
+              <figure className="img-cover">
                 <img
                   src="assets/images/section-2.png"
                   alt="Video Communication"
                 />
-              </div>
+              </figure>
             </Grid>
-            <Grid item size={{ xs: 12, sm: 6, lg: 7, xl: 7.5 }}>
-              <h1 className="heading1">
+            <Grid item size={{ xs: 12, md: 7, xl: 7.5 }}>
+              <h1 className="heading1 mb-50 mb-md-40 mb-sm-30">
                 Powering your communication from{' '}
                 <span className="primary text-with-underline">
                   Anywhere
@@ -90,7 +90,7 @@ const Home = () => {
                 </span>
                 .
               </h1>
-              <p className="subtext heading4 mt-30">
+              <p className="subtext heading4">
                 Lexwell Partners is always available to you, no matter where you
                 are. Using secure, modern technology, we stay connected through
                 calls, video chats, or messages. You can count on quick and easy
@@ -100,7 +100,7 @@ const Home = () => {
               <div className="flex-start mt-30">
                 <Link
                   className="btn btn-primary"
-                  to="https://web.whatsapp.com/send?phone=918882228043&text=Hello%20Lexwell%20Partners"
+                  to="https://web.whatsapp.com/send?phone=919015198051&text=Hello%20Lexwell%20Partners"
                 >
                   Join Now
                 </Link>
@@ -205,14 +205,14 @@ const Home = () => {
                   Vivek Raj
                 </Link>
                 <p className="subtext body2">
-                  Co-Founder <br /> Lexwell Partners Private Limited
+                  Co-Founder <br /> Lexwell Partners
                 </p>
                 <Link
-                  to="mailto:awdawedawe.com"
+                  to="mailto:vivek@lexwellpartners.com"
                   className="flex-center mb-20 mt-10 black"
                 >
                   <EmailOutlinedIcon className="mr-5" fontSize="small" />
-                  VivekRaj@LexwellPartners.com
+                  vivek@lexwellpartners.com
                 </Link>
                 <div className="review-cover">
                   <div className="rating">
@@ -244,14 +244,14 @@ const Home = () => {
                   Neeraj Badjatya
                 </Link>
                 <p className="subtext body2">
-                  Co-Founder <br /> Lexwell Partners Private Limited
+                  Co-Founder <br /> Lexwell Partners
                 </p>
                 <Link
-                  to="mailto:awdawedawe.com"
+                  to="mailto:neeraj@lexwellpartners.com"
                   className="flex-center mb-20 mt-10 black"
                 >
                   <EmailOutlinedIcon className="mr-5" fontSize="small" />
-                  NeerajBadjatya@LexwellPartners.com
+                  neeraj@lexwellpartners.com
                 </Link>
                 <div className="review-cover">
                   <div className="rating">

@@ -34,7 +34,7 @@ function App() {
       <a
         className="btnFixed"
         title="Click to get a help on whatsapp"
-        href="https://web.whatsapp.com/send?phone=918882228043&text=Hello%20Lexwell%20Partners"
+        href="https://web.whatsapp.com/send?phone=919015198051&text=Hello%20Lexwell%20Partners"
         aria-label="How can I help you?"
         target="_blank"
       >

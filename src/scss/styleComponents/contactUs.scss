@@ -3,22 +3,22 @@
     border-radius: 8px;
     box-shadow: 0 5px 20px 5px rgba(146, 146, 146, 0.5);
     overflow: hidden;
-  width: 100%;
+    width: 100%;
     form {
       position: relative;
       padding: 30px 50px;
       height: 100%;
-      @media screen and (max-width: 576px){
+      @media screen and (max-width: 576px) {
         padding: 30px 20px;
       }
-      .form-group{
-        label{
+      .form-group {
+        label {
           font-size: 15px;
           display: block;
           margin-bottom: 8px;
           // font-weight: 400;
         }
-        .form-control{
+        .form-control {
           padding: 12px 16px;
           border: 1px solid #d3d3d3;
           font-size: 15px;
@@ -35,7 +35,10 @@
       color: var(--white);
       background-color: var(--primary);
       border-radius: 0 5px 5px 0;
-      @media screen and (max-width: 576px){
+      @media screen and (max-width: 899px) {
+        border-radius: 0 0 5px 5px;
+      }
+      @media screen and (max-width: 576px) {
         padding: 30px 20px;
       }
       &::after {
@@ -50,16 +53,16 @@
         right: 0;
         bottom: 0;
       }
-      ul{
-        li{
+      ul {
+        li {
           padding: 8px 0;
-          a{
+          a {
             display: flex;
             align-items: center;
             justify-content: flex-start;
             padding: 5px 0;
             font-size: 16px;
-            img{
+            img {
               width: 25px;
             }
           }
