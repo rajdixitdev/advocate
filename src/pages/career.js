@@ -1,6 +1,5 @@
 import { Grid2 } from '@mui/material';
 import { Link } from 'react-router-dom';
-import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
@@ -11,19 +10,7 @@ const Career = () => {
   const form = useRef();
   const sendApplication = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm('service_7deluxr', 'template_8dvq0tj', form.current, {
-        publicKey: 'U7WnAp5maYKSwm1Qj',
-      })
-      .then(
-        () => {
-          alert('Form Submitted Successfully!');
-        },
-        () => {
-          alert('Error! Please fill the form in correct format.');
-        }
-      );
+    alert('This Form is in development phase, Please try again later.')
   };
 
   return (
@@ -94,9 +81,8 @@ const Career = () => {
 
                 <ul>
                   <li>
-                    <Link to="tel:2937823" type="tel" className="white" target='_blank'>
-                      <CallOutlinedIcon className="white mr-20" />+ 23928
-                      2839283
+                    <Link to="tel:9015198051" type="tel" className="white" target='_blank'>
+                      <CallOutlinedIcon className="white mr-20" />+91 9015198051
                     </Link>
                   </li>
                   <li>
@@ -111,7 +97,9 @@ const Career = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7" className="white"
+                    <Link to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7" 
+                    style={{pointerEvents: 'none'}}
+                    className="white"
                     target='_blank'>
                       <LocationOnOutlinedIcon className="white mr-20" />
                       D-9, Ground Floor, Jangpura Extension, Delhi - 110014
@@ -121,25 +109,25 @@ const Career = () => {
                   <h2 className="heading2 mt-10">You can also follow us on:</h2>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img src="assets/icons/facebook-white.svg" alt="Facebook" className='mr-20' />
                       facebook@LexwellPartners
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img src="assets/icons/twitter-white.svg" alt="Youtube" className='mr-20' />
                       twitter@LexwellPartners
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img src="assets/icons/insta-white.svg" alt="Instagram" className='mr-20' />
                       instagram@LexwellPartners
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img src="assets/icons/youtube-white.svg" alt="Youtube" className='mr-20' />
                       youtube@LexwellPartners
                     </Link>

@@ -45,16 +45,16 @@ const Footer = () => {
           </Grid2>
           <Grid2 item size={{ xs: 12, md: 6 }} className="socialIconGrid">
             <div className="social-icons">
-              <Link to="/">
+              <Link to="/" style={{pointerEvents: 'none'}}>
                 <img src="assets/icons/facebook-white.svg" alt="Facebook" />
               </Link>
-              <Link to="/">
+              <Link to="/" style={{pointerEvents: 'none'}}>
                 <img src="assets/icons/twitter-white.svg" alt="Twitter" />
               </Link>
-              <Link to="/">
+              <Link to="/" style={{pointerEvents: 'none'}}>
                 <img src="assets/icons/insta-white.svg" alt="Instagram" />
               </Link>
-              <Link to="/">
+              <Link to="/" style={{pointerEvents: 'none'}}>
                 <img src="assets/icons/youtube-white.svg" alt="Youtube" />
               </Link>
             </div>

@@ -1,6 +1,5 @@
 import { Grid2 } from '@mui/material';
 import { Link } from 'react-router-dom';
-import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
@@ -10,19 +9,7 @@ const ContactUs = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm('service_7deluxr', 'template_v6q9i3q', form.current, {
-        publicKey: 'U7WnAp5maYKSwm1Qj',
-      })
-      .then(
-        () => {
-          alert('Form Submitted Successfully!');
-        },
-        () => {
-          alert('Error! Please fill the form in correct format.');
-        }
-      );
+    alert('This Form is in development phase, Please try again later.')
   };
 
   return (
@@ -97,14 +84,8 @@ const ContactUs = () => {
 
                 <ul>
                   <li>
-                    <Link
-                      to="tel:3423492"
-                      type="tel"
-                      className="white"
-                      target="_blank"
-                    >
-                      <CallOutlinedIcon className="white mr-20" />+ 23928
-                      2839283
+                  <Link to="tel:9015198051" type="tel" className="white" target='_blank'>
+                      <CallOutlinedIcon className="white mr-20" />+91 9015198051
                     </Link>
                   </li>
                   <li>
@@ -121,6 +102,7 @@ const ContactUs = () => {
                   <li>
                     <Link
                       to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7"
+                      style={{pointerEvents: 'none'}}
                       className="white"
                       target="_blank"
                     >
@@ -134,7 +116,7 @@ const ContactUs = () => {
                     </h2>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img
                         src="assets/icons/facebook-white.svg"
                         alt="Facebook"
@@ -144,7 +126,7 @@ const ContactUs = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img
                         src="assets/icons/twitter-white.svg"
                         alt="Youtube"
@@ -154,7 +136,7 @@ const ContactUs = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img
                         src="assets/icons/insta-white.svg"
                         alt="Instagram"
@@ -164,7 +146,7 @@ const ContactUs = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white">
+                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
                       <img
                         src="assets/icons/youtube-white.svg"
                         alt="Youtube"
