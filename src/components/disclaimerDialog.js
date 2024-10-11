@@ -29,8 +29,7 @@ const DisclaimerDialog = () => {
         <ul>
           <li>
             <p className="body2 mb-20">
-              (1) The user wishes to obtain more information about ASG &
-              Partners’ practice areas and its lawyers, for his/her own
+              (1) The user wishes to obtain more information about Lexwell Partners’ practice areas and its lawyers, for his/her own
               information and use;
             </p>
           </li>

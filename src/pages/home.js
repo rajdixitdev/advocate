@@ -199,22 +199,25 @@ const Home = () => {
                   />
                 </div>
                 <Link
-                  className="heading4 mt-15 mb-5 semi-bold flex-center black"
+                  className="heading3 mt-20 mb-10 semi-bold flex-center black"
                   to="/our-team"
                 >
                   Vivek Raj
                 </Link>
                 <p className="subtext body2">
-                  Co-Founder <br /> Lexwell Partners
+                  Co-Founder
+                </p>
+                <p className="subtext body2 mt-10">
+                  Lexwell Partners
                 </p>
                 <Link
                   to="mailto:vivek@lexwellpartners.com"
-                  className="flex-center mb-20 mt-10 black"
+                  className="flex-center mb-10 mt-20 black"
                 >
                   <EmailOutlinedIcon className="mr-5" fontSize="small" />
                   vivek@lexwellpartners.com
                 </Link>
-                <div className="review-cover">
+                {/* <div className="review-cover">
                   <div className="rating">
                     <h4 className="semi-bold">
                       <img src="assets/icons/star-orange-icon.svg" alt="Star" />{' '}
@@ -226,7 +229,7 @@ const Home = () => {
                     <h4 className="semi-bold">900+</h4>
                     <h5 className="regular">Happy Clients</h5>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Grid>
             <Grid item size={{ xs: 12, sm: 6, lg: 4 }}>
@@ -239,21 +242,24 @@ const Home = () => {
                 </div>
                 <Link
                   to="/our-team"
-                  className="heading4 mt-15 mb-5 semi-bold flex-center black"
+                  className="heading3 mt-20 mb-10 semi-bold flex-center black"
                 >
                   Neeraj Badjatya
                 </Link>
                 <p className="subtext body2">
-                  Co-Founder <br /> Lexwell Partners
+                  Co-Founder
+                </p>
+                <p className="subtext body2 mt-10">
+                  Lexwell Partners
                 </p>
                 <Link
                   to="mailto:neeraj@lexwellpartners.com"
-                  className="flex-center mb-20 mt-10 black"
+                  className="flex-center mb-10 mt-20 black"
                 >
                   <EmailOutlinedIcon className="mr-5" fontSize="small" />
                   neeraj@lexwellpartners.com
                 </Link>
-                <div className="review-cover">
+                {/* <div className="review-cover">
                   <div className="rating">
                     <h4 className="semi-bold">
                       <img src="assets/icons/star-orange-icon.svg" alt="Star" />{' '}
@@ -265,7 +271,7 @@ const Home = () => {
                     <h4 className="semi-bold">900+</h4>
                     <h5 className="regular">Happy Clients</h5>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Grid>
           </Grid>
