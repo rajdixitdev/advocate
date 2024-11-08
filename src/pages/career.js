@@ -6,11 +6,10 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 const Career = () => {
-
   const form = useRef();
   const sendApplication = (e) => {
     e.preventDefault();
-    alert('This Form is in development phase, Please try again later.')
+    alert('This Form is in development phase, Please try again later.');
   };
 
   return (
@@ -18,14 +17,129 @@ const Career = () => {
       <div className="container">
         <h1 className="heading1 mb-30 center">Career</h1>
         <p className="body2 subtext mb-60 mb-md-40 center">
-        We always appreciate new talents who are dedicated and motivated by the prospect of doing their best work everyday.<br />
-        We strive to embody the following ideals in everything we do.
+          We always appreciate new talents who are dedicated and motivated by
+          the prospect of doing their best work everyday.
+          <br />
+          We strive to embody the following ideals in everything we do.
         </p>
 
         <div className="contact-content">
           <Grid2 container>
             <Grid2 item size={{ xs: 12, md: 6 }}>
-            <form ref={form} onSubmit={sendApplication}>
+              <div className="contact-info">
+                <h2 className="heading2 mb-5">Contact Information</h2>
+
+                <ul>
+                  <li>
+                    <Link
+                      to="tel:9015198051"
+                      type="tel"
+                      className="white"
+                      target="_blank"
+                    >
+                      <CallOutlinedIcon className="white mr-20" />
+                      +91 9015198051
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="mailto:contact@lexwellpartners.com"
+                      type="mail"
+                      className="white"
+                      target="_blank"
+                    >
+                      <EmailOutlinedIcon className="white mr-20" />{' '}
+                      contact@lexwellpartners.com
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7"
+                      style={{ pointerEvents: 'none' }}
+                      className="white"
+                      target="_blank"
+                    >
+                      <LocationOnOutlinedIcon className="white mr-20" />
+                      D-9, Ground Floor, Jangpura Extension, Delhi - 110014
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://maps.app.goo.gl/CVdcn8zvuWSWcEVM6"
+                      style={{ pointerEvents: 'none' }}
+                      className="white"
+                      target="_blank"
+                    >
+                      <LocationOnOutlinedIcon className="white mr-20" />
+                      F-104, Bailey Road, Patna, Bihar - 800014
+                    </Link>
+                  </li>
+                  <li>
+                    <h2 className="heading2 mt-10">
+                      You can also follow us on:
+                    </h2>
+                  </li>
+                  <li>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
+                      <img
+                        src="assets/icons/facebook-white.svg"
+                        alt="Facebook"
+                        className="mr-20"
+                      />
+                      facebook@LexwellPartners
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
+                      <img
+                        src="assets/icons/twitter-white.svg"
+                        alt="Youtube"
+                        className="mr-20"
+                      />
+                      twitter@LexwellPartners
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
+                      <img
+                        src="assets/icons/insta-white.svg"
+                        alt="Instagram"
+                        className="mr-20"
+                      />
+                      instagram@LexwellPartners
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
+                      <img
+                        src="assets/icons/youtube-white.svg"
+                        alt="Youtube"
+                        className="mr-20"
+                      />
+                      youtube@LexwellPartners
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </Grid2>
+            <Grid2 item size={{ xs: 12, md: 6 }}>
+              <form ref={form} onSubmit={sendApplication}>
                 <h2 className="heading2 mb-20">Apply for Internship</h2>
                 <div className="form-group mb-20">
                   <label for="name">Name</label>
@@ -68,72 +182,18 @@ const Career = () => {
                   />
                 </div>
                 <div className="form-group mb-20">
-                  <label for="resume">Upload Your Resume on Lexwellpartners@gmail.com</label>
+                  <label for="resume">
+                    Upload Your Resume on Lexwellpartners@gmail.com
+                  </label>
                 </div>
-                <button className="btn btn-primary mt-20" type="submit" value="Send">
+                <button
+                  className="btn btn-primary mt-20"
+                  type="submit"
+                  value="Send"
+                >
                   Submit
                 </button>
               </form>
-            </Grid2>
-            <Grid2 item size={{ xs: 12, md: 6 }}>
-              <div className="contact-info">
-                <h2 className="heading2 mb-15">Contact Information</h2>
-
-                <ul>
-                  <li>
-                    <Link to="tel:9015198051" type="tel" className="white" target='_blank'>
-                      <CallOutlinedIcon className="white mr-20" />+91 9015198051
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="mailto:contact@lexwellpartners.com"
-                      type="mail"
-                      className="white"
-                      target='_blank'
-                    >
-                      <EmailOutlinedIcon className="white mr-20" />{' '}
-                      contact@lexwellpartners.com
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7" 
-                    style={{pointerEvents: 'none'}}
-                    className="white"
-                    target='_blank'>
-                      <LocationOnOutlinedIcon className="white mr-20" />
-                      D-9, Ground Floor, Jangpura Extension, Delhi - 110014
-                    </Link>
-                  </li>
-                  <li>
-                  <h2 className="heading2 mt-10">You can also follow us on:</h2>
-                  </li>
-                  <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
-                      <img src="assets/icons/facebook-white.svg" alt="Facebook" className='mr-20' />
-                      facebook@LexwellPartners
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
-                      <img src="assets/icons/twitter-white.svg" alt="Youtube" className='mr-20' />
-                      twitter@LexwellPartners
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
-                      <img src="assets/icons/insta-white.svg" alt="Instagram" className='mr-20' />
-                      instagram@LexwellPartners
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
-                      <img src="assets/icons/youtube-white.svg" alt="Youtube" className='mr-20' />
-                      youtube@LexwellPartners
-                    </Link>
-                  </li>
-                </ul>
-              </div>
             </Grid2>
           </Grid2>
         </div>

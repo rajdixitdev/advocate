@@ -80,7 +80,7 @@ const ContactUs = () => {
             </Grid2>
             <Grid2 item size={{ xs: 12, md: 6 }}>
               <div className="contact-info">
-                <h2 className="heading2 mb-15">Contact Information</h2>
+                <h2 className="heading2 mb-5">Contact Information</h2>
 
                 <ul>
                   <li>
@@ -108,6 +108,17 @@ const ContactUs = () => {
                     >
                       <LocationOnOutlinedIcon className="white mr-20" />
                       D-9, Ground Floor, Jangpura Extension, Delhi - 110014
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://maps.app.goo.gl/CVdcn8zvuWSWcEVM6"
+                      style={{pointerEvents: 'none'}}
+                      className="white"
+                      target="_blank"
+                    >
+                      <LocationOnOutlinedIcon className="white mr-20" />
+                      F-104, Bailey Road, Patna, Bihar - 800014
                     </Link>
                   </li>
                   <li>
