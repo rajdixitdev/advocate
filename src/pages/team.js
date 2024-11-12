@@ -111,7 +111,7 @@ const Team = () => {
           <li className="single-team-member">
             <div className="img-cover">
               <img
-                src="assets/images/VikasKumarProfile.jpg"
+                src="assets/images/vikasKumarProfile.jpg"
                 alt="Vikas Kumar"
               />
             </div>
