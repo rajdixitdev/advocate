@@ -9,7 +9,7 @@ const ContactUs = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    alert('This Form is in development phase, Please try again later.')
+    alert('This Form is in development phase, Please try again later.');
   };
 
   return (
@@ -83,9 +83,24 @@ const ContactUs = () => {
                 <h2 className="heading2 mb-5">Contact Information</h2>
 
                 <ul>
-                  <li>
-                  <Link to="tel:9015198051" type="tel" className="white" target='_blank'>
-                      <CallOutlinedIcon className="white mr-20" />+91 9015198051
+                <li className="flex al-center js-start flex-wrap">
+                    <Link
+                      to="tel:9015198051"
+                      type="tel"
+                      className="white"
+                      target="_blank"
+                    >
+                      <CallOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />
+                      +91 9015198051,
+                    </Link>
+                    &nbsp;
+                    <Link
+                      to="tel:9650515440"
+                      type="tel"
+                      className="white"
+                      target="_blank"
+                    >
+                      9650515440
                     </Link>
                   </li>
                   <li>
@@ -95,29 +110,29 @@ const ContactUs = () => {
                       className="white"
                       target="_blank"
                     >
-                      <EmailOutlinedIcon className="white mr-20" />{' '}
+                      <EmailOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />{' '}
                       contact@lexwellpartners.com
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="https://maps.app.goo.gl/qtXMgGoEHJZzVZ6U7"
-                      style={{pointerEvents: 'none'}}
+                      style={{ pointerEvents: 'none' }}
                       className="white"
                       target="_blank"
                     >
-                      <LocationOnOutlinedIcon className="white mr-20" />
+                      <LocationOnOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />
                       D-9, Ground Floor, Jangpura Extension, Delhi - 110014
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="https://maps.app.goo.gl/CVdcn8zvuWSWcEVM6"
-                      style={{pointerEvents: 'none'}}
+                      style={{ pointerEvents: 'none' }}
                       className="white"
                       target="_blank"
                     >
-                      <LocationOnOutlinedIcon className="white mr-20" />
+                      <LocationOnOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />
                       F-104, Bailey Road, Patna, Bihar - 800014
                     </Link>
                   </li>
@@ -127,41 +142,57 @@ const ContactUs = () => {
                     </h2>
                   </li>
                   <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
                       <img
                         src="assets/icons/facebook-white.svg"
                         alt="Facebook"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       facebook@LexwellPartners
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
                       <img
                         src="assets/icons/twitter-white.svg"
                         alt="Youtube"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       twitter@LexwellPartners
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
                       <img
                         src="assets/icons/insta-white.svg"
                         alt="Instagram"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       instagram@LexwellPartners
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className="white" style={{pointerEvents: 'none'}}>
+                    <Link
+                      to=""
+                      className="white"
+                      style={{ pointerEvents: 'none' }}
+                    >
                       <img
                         src="assets/icons/youtube-white.svg"
                         alt="Youtube"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       youtube@LexwellPartners
                     </Link>

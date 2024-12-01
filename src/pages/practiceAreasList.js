@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import Grid from '@mui/material/Grid2';
-import PractiseAreaCard from '../components/practiseAreaCard';
+import PracticeAreaCard from '../components/practiceAreaCard';
 
-const PractiseAreasList = ({ numberOfItems }) => {
+const PracticeAreasList = ({ numberOfItems }) => {
   const [itemToDisplay, setItemToDisplay] = React.useState([]);
   const state = {
-    practiseAreas: [
+    practiceAreas: [
       {
         areaName: 'Intellectual Property',
         areaDescription: `At Lexwell Partners, we provide comprehensive services to protect and enforce intellectual property (IP) rights. Our team advises on trademark, copyright, patent, design, and trade secret matters, ensuring your innovations and brands are secured. Whether it’s IP registration, enforcement, or defending IP-related disputes, our proactive approach helps businesses maintain a competitive edge in today’s global marketplace.`,
@@ -41,21 +41,21 @@ const PractiseAreasList = ({ numberOfItems }) => {
 
   useEffect(() => {
     if (numberOfItems) {
-      const firstThreeObjects = state.practiseAreas.slice(0, numberOfItems);
+      const firstThreeObjects = state.practiceAreas.slice(0, numberOfItems);
       setItemToDisplay(firstThreeObjects);
-    } else setItemToDisplay(state.practiseAreas);
+    } else setItemToDisplay(state.practiceAreas);
   }, [numberOfItems]);
 
   return (
     <Grid container spacing={3} justifyContent={'center'}>
       {itemToDisplay.length > 0 &&
-        itemToDisplay.map((practiseArea) => (
-          <Grid item size={{ xs: 12, sm: 6, lg: 4 }} key={practiseArea} className="mb-30">
-            <PractiseAreaCard practiseArea={practiseArea} />
+        itemToDisplay.map((practiceArea) => (
+          <Grid item size={{ xs: 12, sm: 6, lg: 4 }} key={practiceArea} className="mb-30">
+            <PracticeAreaCard practiceArea={practiceArea} />
           </Grid>
         ))}
     </Grid>
   );
 };
 
-export default PractiseAreasList;
+export default PracticeAreasList;

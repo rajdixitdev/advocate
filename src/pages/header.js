@@ -26,7 +26,7 @@ const Header = () => {
             <Link to="/our-team">Our Team</Link>
           </li>
           <li>
-            <Link to="/practise-areas">Practise Area</Link>
+            <Link to="/practice-areas">Practice Areas</Link>
           </li>
           <li>
             <Link to="/career">Career</Link>
@@ -71,8 +71,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/practise-areas" onClick={toggleDrawer(false)}>
-                Practise Area
+              <Link to="/practice-areas" onClick={toggleDrawer(false)}>
+                Practice Areas
               </Link>
             </li>
             <li>

@@ -5,7 +5,7 @@ import './App.scss';
 import Header from './pages/header';
 import Footer from './pages/footer';
 import ContactUs from './pages/contactUs';
-import PractiseAreas from './pages/practiseAreas';
+import PracticeAreas from './pages/practiceAreas';
 import AboutUs from './pages/aboutUs';
 import Team from './pages/team';
 import Career from './pages/career';
@@ -25,7 +25,7 @@ function App() {
             <Route path="/career" element={<Career />} />
             <Route path="/our-team" element={<Team />} />
             <Route path="/contact-us" element={<ContactUs />} />
-            <Route path="/practise-areas" element={<PractiseAreas />} />
+            <Route path="/practice-areas" element={<PracticeAreas />} />
           </Routes>
         </main>
         <Footer />

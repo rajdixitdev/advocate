@@ -25,20 +25,29 @@ const Career = () => {
 
         <div className="contact-content">
           <Grid2 container>
-            <Grid2 item size={{ xs: 12, md: 6 }}>
+            <Grid2 item size={{ xs: 12, md: 6 }} className="contact-for-career">
               <div className="contact-info">
                 <h2 className="heading2 mb-5">Contact Information</h2>
 
                 <ul>
-                  <li>
+                  <li className="flex al-center js-start flex-wrap">
                     <Link
                       to="tel:9015198051"
                       type="tel"
                       className="white"
                       target="_blank"
                     >
-                      <CallOutlinedIcon className="white mr-20" />
-                      +91 9015198051
+                      <CallOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />
+                      +91 9015198051,
+                    </Link>
+                    &nbsp;
+                    <Link
+                      to="tel:9650515440"
+                      type="tel"
+                      className="white"
+                      target="_blank"
+                    >
+                      9650515440
                     </Link>
                   </li>
                   <li>
@@ -48,7 +57,7 @@ const Career = () => {
                       className="white"
                       target="_blank"
                     >
-                      <EmailOutlinedIcon className="white mr-20" />{' '}
+                      <EmailOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />{' '}
                       contact@lexwellpartners.com
                     </Link>
                   </li>
@@ -59,7 +68,7 @@ const Career = () => {
                       className="white"
                       target="_blank"
                     >
-                      <LocationOnOutlinedIcon className="white mr-20" />
+                      <LocationOnOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />
                       D-9, Ground Floor, Jangpura Extension, Delhi - 110014
                     </Link>
                   </li>
@@ -70,7 +79,7 @@ const Career = () => {
                       className="white"
                       target="_blank"
                     >
-                      <LocationOnOutlinedIcon className="white mr-20" />
+                      <LocationOnOutlinedIcon className="white mr-20 mr-md-15 mr-xs-10" />
                       F-104, Bailey Road, Patna, Bihar - 800014
                     </Link>
                   </li>
@@ -88,7 +97,7 @@ const Career = () => {
                       <img
                         src="assets/icons/facebook-white.svg"
                         alt="Facebook"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       facebook@LexwellPartners
                     </Link>
@@ -102,7 +111,7 @@ const Career = () => {
                       <img
                         src="assets/icons/twitter-white.svg"
                         alt="Youtube"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       twitter@LexwellPartners
                     </Link>
@@ -116,7 +125,7 @@ const Career = () => {
                       <img
                         src="assets/icons/insta-white.svg"
                         alt="Instagram"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       instagram@LexwellPartners
                     </Link>
@@ -130,7 +139,7 @@ const Career = () => {
                       <img
                         src="assets/icons/youtube-white.svg"
                         alt="Youtube"
-                        className="mr-20"
+                        className="mr-20 mr-md-15 mr-xs-10"
                       />
                       youtube@LexwellPartners
                     </Link>

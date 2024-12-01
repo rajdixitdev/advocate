@@ -3,17 +3,17 @@ import Dialog from '@mui/material/Dialog';
 import CloseIcon from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
 
-const PractiseAreaDialog = ({ open, onClose, practiseArea }) => {
-  const { areaName, areaDescription, areaImg } = practiseArea;
+const PracticeAreaDialog = ({ open, onClose, practiceArea }) => {
+  const { areaName, areaDescription, areaImg } = practiceArea;
   return (
     <Dialog
       open={open}
-      aria-labelledby="practise area dialog"
+      aria-labelledby="Practice area dialog"
       maxWidth={'xs'}
       fullWidth
       onClose={onClose}
     >
-      <div className="popup-ui practiseAreaDialog">
+      <div className="popup-ui practiceAreaDialog">
         <div className="popup-header">
           <h1 className="heading3 semi-bold">{areaName}</h1>
           <IconButton aria-label="close dialog" size="small" onClick={onClose}>
@@ -31,4 +31,4 @@ const PractiseAreaDialog = ({ open, onClose, practiseArea }) => {
   );
 };
 
-export default PractiseAreaDialog;
+export default PracticeAreaDialog;

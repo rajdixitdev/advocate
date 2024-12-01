@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Grid from '@mui/material/Grid2';
-import PractiseAreasList from './practiseAreasList';
+import PracticeAreasList from './practiceAreasList';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 const Home = () => {
@@ -113,12 +113,12 @@ const Home = () => {
       <section className="practice-areas">
         <div className="container">
           <div className="space-between mb-40">
-            <h2 className="heading1 center">Our Practise Areas</h2>
-            <Link className="btn btn-primary" to="practise-areas">
+            <h2 className="heading1 center">Our Practice Areas</h2>
+            <Link className="btn btn-primary" to="practice-areas">
               Discover All
             </Link>
           </div>
-          <PractiseAreasList numberOfItems={3} />
+          <PracticeAreasList numberOfItems={3} />
         </div>
       </section>
 
